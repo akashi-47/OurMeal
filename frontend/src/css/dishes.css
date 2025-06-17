@@ -1,0 +1,54 @@
+.star
+{
+    position: absolute;
+    top: 15.6rem;
+    left: 13rem;
+}
+.addb
+{
+    bottom: 167px;
+    background-color: white;
+
+    height: 2.5rem;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    right: 7px;
+    font-size: larger;
+    width: 2.5rem;
+    transition: all 0.4s ease;
+}
+.addb:hover
+{
+    border: 1.5px solid rgb(249, 123, 20);
+  
+
+}
+.rad
+{
+    border-radius: 71px;
+    border-color: rgb(224, 103, 4);
+    
+}
+.incr
+{
+    position: absolute;
+    top: 171px;
+    background-color: white;
+    right: 9px;
+   
+    display: flex;
+    width: 6.4rem;
+    justify-content: space-evenly;
+    height: 2.6rem;
+    align-items: center;
+    vertical-align: middle;
+    border-radius: 39px;
+}
+.img-food
+{
+    width: 290px;
+    height: 230px;
+}
