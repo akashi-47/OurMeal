@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 const Items =()=>
     {
         const [list,setList] = useState([]);
-        const urll=import.meta.env.REACT_APP_API_URL;
+        const urll=import.meta.env.VITE_API_URL;
        
         const fetchList = async () =>
         {

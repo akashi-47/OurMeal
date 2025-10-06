@@ -16,7 +16,7 @@ const StoreContextProvider = (props) =>
         contact : useRef(null)
 
      }
-    const url =process.env.REACT_APP_API_URL;
+    const url =process.env.VITE_API_URL;
     const [token,setToken] = useState("");
    
     const scrollToSection = (sectionName) => {

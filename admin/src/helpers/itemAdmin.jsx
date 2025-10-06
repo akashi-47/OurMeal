@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 /* eslint-disable react/prop-types */
 const ItemAdmin =({food,fetch})=>
 {
-    const url=import.meta.env.REACT_APP_API_URL+"/";
+    const url=import.meta.env.VITE_API_URL+"/";
     
     const removeFood = async (foodid) =>
     {
