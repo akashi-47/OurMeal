@@ -5,7 +5,7 @@ import CartOrder from "../helpers/cartOrder";
 const OrdersA = () => {
  
   const [isDrop, setDrop] = useState(false);
-  const url= "http://localhost:4000";
+
 
   return (
     <div className=" md:mx-0 px-12  md:px-2 lg:px-8 mt-3">

@@ -13,7 +13,7 @@ const Additems = () => {
     "Pasta",
   ];
   const [image, setImage] = useState(false);
-  const url= "http://localhost:4000";
+  const url= import.meta.env.REACT_APP_API_URL;
   const [data, setData] = useState({
     name: "",
     description: "",

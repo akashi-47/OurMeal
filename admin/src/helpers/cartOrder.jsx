@@ -12,7 +12,7 @@ const CartOrder=()=>
       {
        
         try {
-          const newUrl = "http://localhost:4000/api/order/getOrder";
+          const newUrl = `${import.meta.env.REACT_APP_API_URL}/api/order/getOrder`;
           const result = await axios.get(newUrl);
           if(!result.data.success)
           {
@@ -54,7 +54,7 @@ const CartOrder=()=>
         const i = e.target.name;
         const id = orders.at(i)._id;
         console.log(id);
-        const newUrl = "http://localhost:4000/api/order/setStateOrder/"+id;
+        const newUrl = `${import.meta.env.REACT_APP_API_URL}/api/order/setStateOrder/`+id;
         const result = await axios.put(newUrl,{state:selected});
           console.log(result.data.message);
           fetchOrders();

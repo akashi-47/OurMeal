@@ -16,7 +16,7 @@ const StoreContextProvider = (props) =>
         contact : useRef(null)
 
      }
-    const url = "http://localhost:4000";
+    const url = import.meta.env.REACT_APP_API_URL;
     const [token,setToken] = useState("");
    
     const scrollToSection = (sectionName) => {
