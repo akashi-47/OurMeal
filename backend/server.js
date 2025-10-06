@@ -8,7 +8,7 @@ import 'dotenv/config'
 // app config
 const app = express();
 const port = process.env.PORT || 4000;
-const url = import.meta.env.REACT_APP_API_URL
+
 
 // middleware
 app.use(express.json());
