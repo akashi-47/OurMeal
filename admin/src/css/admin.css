@@ -41,6 +41,18 @@
     grid-area: 2 / 1 / 2 / 7;
   
 }
+.logo-admin
+{
+      align-items: center;
+    justify-content: center;
+    display: flex
+;
+    flex-direction: column;
+}
+.logo-admin img
+{
+  width: 7rem;
+}
   
 }
 .items-admin a {

@@ -3,9 +3,9 @@ const Navbar = ()=>
 {
     return (
         <div className="mx-auto px-3 lg:px-5 mt-7 md:mt-9 xl:px-36">
-        <nav className="flex justify-between px-5">
+        <nav className="flex justify-between px-5 items-center">
             <div className="logo-admin">
-                <img src={assets.logo} alt="" />
+                <img src={assets.ourmeal} alt="" />
                 <h3 className="font-bold mt-2 ml-2">Admin panel</h3>
             </div>
             <div className="profile-admin">
