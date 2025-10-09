@@ -20,7 +20,7 @@ export default function Mainpage()
                 <button onClick={(e)=>{
                     e.preventDefault();
                     scrollToSection("menu");
-                }} className="text-start w-fit border-2 shadow-lg text-gray-700 font-serif px-2 rounded-lg bg-white py-0.5 my-2 text-sm md:px-6 md:py-1 md:text-base lg:px-8 lg:py-1.5 lg:text-lg lg:mt-8 shb">View menu</button>
+                }} className="text-start w-fit border-2 shadow-lg text-gray-700 font-serif px-2 rounded-lg bg-white py-0.5 my-2 text-sm md:px-6 md:py-1 lg:my:3 md:text-base lg:px-8 lg:py-1.5 lg:text-lg lg:mt-7 shb">View menu</button>
 
               </div>
            

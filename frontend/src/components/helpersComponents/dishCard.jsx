@@ -54,7 +54,7 @@ export default function Card({keyt,name,img,price,desc,category})
     return (
         <React.Fragment>
 
-        <div className="card h-96 w-72 shadow-md relative hover:scale-105 transition-transform duration-150">
+        <div className="card h-96 max-w-72 shadow-md relative hover:scale-105 transition-transform duration-150">
        
             <img src={url+ "/images/"+img} alt="" className="img-food" /> 
          

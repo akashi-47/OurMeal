@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const password = encodeURIComponent("@Ismail40");
+const password = encodeURIComponent(process.env.DB_PASSWORD);
 
 export const connectDB = async () => {
     try {
